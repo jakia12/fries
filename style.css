@@ -1,6 +1,4 @@
-
-
-@import url('https://fonts.googleapis.com/css2?family=Changa+One:ital@0;1&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Changa+One:ital@0;1&display=swap");
 
 #background-wrap {
   bottom: 0;
@@ -8,21 +6,21 @@
   position: fixed;
   right: 0;
   top: 0;
-  font-family: "Changa One", sans-serif!important;
+  font-family: "Changa One", sans-serif !important;
   z-index: -1;
 }
 
 .body {
-  background-image: linear-gradient(#111111d5,#111111c6), url(/images/bg3.jpg) !important;
+  background-image: linear-gradient(#111111d5, #111111c6), url(/images/bg3.jpg) !important;
   background-size: cover;
   background-attachment: fixed;
   font-family: "Changa One", sans-serif;
   background-blend-mode: multiply;
 }
-p{
-  font-family: Verdana, Geneva, Tahoma, sans-serif!important;
-  font-size: 22px!important;
-  line-height: 29px!important;
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+  font-size: 22px !important;
+  line-height: 29px !important;
 }
 a {
   z-index: 9999;
@@ -422,6 +420,12 @@ a {
   top: 39%;
   right: 10%;
 }
+.flt {
+  width: 130px;
+}
+.flt2 {
+  width: 150px;
+}
 @media screen and (max-width: 768px) {
   .anim {
     width: 90px;
@@ -453,10 +457,7 @@ a {
     left: 79%;
   }
 
-0.
-0
-img_5 {4
-1
+  .img_5 {
     top: 66%;
     right: 4%;
     width: 210px;
@@ -466,10 +467,16 @@ img_5 {4
     left: 0%;
     width: 229px;
   }
+  .flt {
+    width: 83px;
+  }
+  .flt2 {
+    width: 115px;
+  }
   .section_hero {
     width: 100%;
 
-    height: 85vh;
+    height: 100vh;
     background-color: rgba(0, 0, 0, 0);
     justify-content: center;
     align-items: center;
@@ -479,9 +486,9 @@ img_5 {4
   }
 }
 .join_button {
-  background: #F91313;
+  background: #f91313;
 
-  border: 2px solid #0B3156;
+  border: 2px solid #0b3156;
   border-bottom-width: 5px;
   border-radius: 10px;
   padding-top: 6px;
@@ -492,9 +499,9 @@ img_5 {4
 .block_ca {
   width: 100%;
   height: 50px;
-  background: #F91313;
+  background: #f91313;
 
-  border: 5px solid #0B3156;
+  border: 5px solid #0b3156;
   border-width: 2px 5px 5px 2px;
   border-radius: 10px;
   justify-content: center;
@@ -506,9 +513,9 @@ img_5 {4
 }
 
 .block_about {
-  background: #F91313;
+  background: #f91313;
 
-  border: 3px solid #0B3156;
+  border: 3px solid #0b3156;
   border-bottom-width: 6px;
   border-radius: 50px;
   flex-flow: column;
@@ -522,14 +529,14 @@ img_5 {4
 .separator_in2 {
   width: 100%;
   height: 50%;
-  background: #F91313;
+  background: #f91313;
   /* background: linear-gradient(270deg, rgba(128,105,255,1) 0%, rgba(71,89,255,1) 100%); */
 }
 
 .separator_in {
   width: 100%;
   height: 50%;
-  background: #F91313;
+  background: #f91313;
   /* background: linear-gradient(270deg, rgba(128,105,255,1) 0%, rgba(71,89,255,1) 100%); */
   justify-content: center;
   align-items: flex-end;
@@ -539,10 +546,10 @@ img_5 {4
 .separator_blue {
   width: 100vw;
   height: 80px;
-  background: #0B3156;
+  background: #0b3156;
   /* background: linear-gradient(270deg, rgba(9,0,19,1) 0%, rgba(82,2,160,1) 50%, rgba(4,0,15,1) 100%); */
-  border-top: 3px solid #0B3156;
-  border-bottom: 0 solid #0B3156;
+  border-top: 3px solid #0b3156;
+  border-bottom: 0 solid #0b3156;
   justify-content: center;
   align-items: flex-end;
   display: flex;
@@ -552,8 +559,8 @@ img_5 {4
 .toke_details {
   width: 200px;
   height: auto;
-  background: #F91313;
-  border: 3px solid #0B3156;
+  background: #f91313;
+  border: 3px solid #0b3156;
   border-bottom-width: 6px;
   border-radius: 13px;
   flex-flow: column;
@@ -591,10 +598,10 @@ img_5 {4
   z-index: 2;
   width: 100vw;
   height: 80px;
-  background: #0B3156;
+  background: #0b3156;
 
-  border-top: 3px solid #0B3156;
-  border-bottom: 0 solid #0B3156;
+  border-top: 3px solid #0b3156;
+  border-bottom: 0 solid #0b3156;
   justify-content: center;
   align-items: flex-end;
   display: flex;
@@ -615,7 +622,7 @@ img_5 {4
 }
 .div-block-9 {
   height: 70px;
-  background: #F91313;
+  background: #f91313;
   border: 3px solid #235e95;
   border-bottom-width: 6px;
   border-radius: 17px;
@@ -630,7 +637,7 @@ img_5 {4
   width: 400px;
   height: auto;
   background-color: #fff;
-  border: 2px solid #0B3156;
+  border: 2px solid #0b3156;
   border-left-width: 6px;
   border-right: 6px #9a1a19;
   border-radius: 20px;
@@ -655,9 +662,9 @@ img_5 {4
 .join_footer {
   width: 150px;
   height: 50px;
-  background: #0B3156;
+  background: #0b3156;
 
-  border: 2px solid #0B3156;
+  border: 2px solid #0b3156;
   border-bottom-width: 5px;
   border-radius: 10px;
   justify-content: center;
