@@ -1,14 +1,6 @@
-.body {
-  background-image: linear-gradient(#111111d5,#111111c6), url(/images/bg3.jpg) !important;
-  background-size: cover;
-  background-attachment: fixed;
 
-  background-blend-mode: multiply;
-}
 
-a {
-  z-index: 9999;
-}
+@import url('https://fonts.googleapis.com/css2?family=Changa+One:ital@0;1&display=swap');
 
 #background-wrap {
   bottom: 0;
@@ -16,7 +8,23 @@ a {
   position: fixed;
   right: 0;
   top: 0;
+  font-family: "Changa One", sans-serif!important;
   z-index: -1;
+}
+
+.body {
+  background-image: linear-gradient(#111111d5,#111111c6), url(/images/bg3.jpg) !important;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: "Changa One", sans-serif;
+  background-blend-mode: multiply;
+}
+p{
+  font-family: Verdana, Geneva, Tahoma, sans-serif!important;
+  font-size: 22px!important;
+}
+a {
+  z-index: 9999;
 }
 
 /* KEYFRAMES */
