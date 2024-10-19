@@ -484,6 +484,13 @@ a {
     padding-bottom: 0;
     display: flex;
   }
+  .img_one {
+    top: 65%;
+    left: 1%;
+  }
+  .anim2 {
+    width: 127px;
+  }
 }
 .join_button {
   background: #f91313;
